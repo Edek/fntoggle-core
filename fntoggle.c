@@ -172,6 +172,10 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    FnState state;
+    fntoggle_read(&state);
+    printf("%d\n", state);
+
     fntoggle_close();
     return 0;
 }
