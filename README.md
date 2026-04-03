@@ -41,7 +41,7 @@ State is persisted via `CFPreferences` so it survives app restarts and stays in 
 
 ## Install
 ```sh
-git clone https://github.com/edek/fntoggle-core
+git clone https://github.com/Edek/fntoggle-core
 cd fntoggle-core
 make install        # CLI only
 make install-all    # CLI + header (for library use)
